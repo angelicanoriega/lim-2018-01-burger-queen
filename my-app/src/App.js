@@ -26,7 +26,7 @@ class App extends Component {
       <Firstpage showFirst={this.showFirstpage} />
     </div>
     <div id='second' className='hidden'>
-      <Secondpage showSecond={this.showSecondpage} />
+      <Secondpage showSecond={this.showSecondpage}  />
     </div>
   </div>
     );

@@ -9,7 +9,7 @@ class Btn extends Component {
         function:props.function
       };  
     }
-    function(){
+    function(){      
       this.state.function();
     }
     render() {
