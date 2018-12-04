@@ -28,6 +28,8 @@ class App extends Component {
     <div id='second' className='hidden'>
       <Secondpage showSecond={this.showSecondpage}  />
     </div>
+    <div>
+    </div>
   </div>
     );
   }

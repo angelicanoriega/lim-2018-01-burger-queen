@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import First from './firtstcontent/app';
+import Second from './secondcontent/app';
+
 
 class App extends Component {
 constructor(props) {
@@ -26,8 +28,8 @@ constructor(props) {
       <div className="col-12  col-md-4 ">
           <First exist={this.props.showSecond} newOrder={this.newOrder}  statusOrder={this.statusOrder}  ></First>
       </div>
-      <div id='newOrder' className="hidden">yrrrrrrrrrrreeeeeeeeeeeeerr</div>
-      <div id='statusOrder' className="col-12 col-md-8">yrrrrrrrrrrreeeeeeeeeeeeerr</div> 
+      <div id='newOrder' ><Second/></div>
+      <div id='statusOrder' className="hidden">yrrrrrrrrrrreeeeeeeeeeeeerr</div> 
       </div>
     </div>
     );
